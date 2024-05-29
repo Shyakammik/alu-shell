@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -exec rsync -u --ignore-existing --relative {} ../ \;
+cp -u ./* .html ..
